@@ -1,0 +1,112 @@
+* {
+  display: block;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: #8a8a8a;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    flex: 1;
+    flex-grow: stretch;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+} 
+
+.h_text {
+    color:rgb(19, 214, 78);
+    font-family: Monaco, Verdana;
+    font-size: 28px;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.topnav {
+    display: flex;
+    align-self: flex-end;
+}
+
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 10px; /*Spacing between links*/
+    text-decoration: none; /*Removes link underline*/
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 24px;
+  }
+ 
+  .featured {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    padding-right: 16px;
+   
+  }
+
+  .kick {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  button { 
+    margin: 10px;
+  }
+
+  .footer {
+    background-color: #8a8a8a;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: auto;
+  }
+
+  .f_text {
+    font-size: smaller;
+    color:rgb(19, 214, 78);
+    font-family: Monaco, Verdana;
+    margin: 20px;
+  }
+
